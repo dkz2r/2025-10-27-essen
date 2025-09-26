@@ -9,12 +9,12 @@ country: "de"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51.46400560719057"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "7.008914254036159"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Oct 27-28, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humandate: "Monday October 27 thru Tuesday October 28, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "Monday 10:30 - 17:00, Tuesday 9:00 - 12:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Lennard Maßmann"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Lennard Maßmann, ?"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["lennard.massmann@uni-due.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -82,6 +82,17 @@ displayed if the 'eventbrite' field in the header is not set.
 </script>
 {% endif %}
 
+
+<strong>Some adblockers block the registration window. If you do not see the registration box below, please check your adblocker settings.</strong>
+<p>Alternatively, you can register for the workshop <strong><a href="https://cryptpad.fr/form/#/2/form/view/UDDVL2I+l1rKyFnSZ2o30xF33+Sdfu4HWFexSh6UObY/embed/">HERE</a></strong></p>
+
+<iframe
+  src="https://cryptpad.fr/form/#/2/form/view/UDDVL2I+l1rKyFnSZ2o30xF33+Sdfu4HWFexSh6UObY/embed/"
+  frameborder="0"
+  width="100%"
+  height="800px"
+  scrolling="auto">
+</iframe>
 
 <h2 id="general">General Information</h2>
 
