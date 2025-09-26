@@ -1,26 +1,51 @@
-{% comment %}
-  Footer for a standard workshop.
-{% endcomment %}
+{% comment %} Footer for a standard workshop. {% endcomment %}
 <footer>
-  <hr/>
+  <hr />
+
+  <div class="row">
+    <div class="col-md-offset-3 col-md-2">
+      <!-- <span>Funding for DKZ.2R is provided by</span> -->
+    </div>
+    <div class="col-md-3">
+      <a href="#">
+        <img
+          src="{{site.baseurl}}/assets/img/Foerderhinweis_BMBF.jpg"
+          alt="Foerderhinweis BMBF"
+          class="pull-right"
+          style="height: 7.5em"
+        />
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="#">
+        <img
+          src="{{site.baseurl}}/assets/img/Foerderhinweis_EU_horizontal.jpg"
+          alt="Foerderhinweis EU"
+          class="pull-right"
+          style="height: 6em"
+        />
+      </a>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-6" align="left">
       <h4>
-	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
-	{% if site.carpentry == "swc" %}
-	<a href="{{ site.swc_site }}">Software Carpentry</a>
-	{% elsif site.carpentry == "dc" %}
-	<a href="{{ site.dc_site }}">Data Carpentry</a>
-	{% elsif site.carpentry == "lc" %}
-	<a href="{{ site.lc_site }}">Library Carpentry</a>
-	{% elsif site.carpentry == "cp" %}
-	<a href="{{ site.carpentries_site }}">The Carpentries</a>
-	{% endif %}
+        Copyright &copy; 2016–{{ 'now' | date: "%Y" }} {% if site.carpentry ==
+        "swc" %}
+        <a href="{{ site.swc_site }}">Software Carpentry</a>
+        {% elsif site.carpentry == "dc" %}
+        <a href="{{ site.dc_site }}">Data Carpentry</a>
+        {% elsif site.carpentry == "lc" %}
+        <a href="{{ site.lc_site }}">Library Carpentry</a>
+        {% elsif site.carpentry == "cp" %}
+        <a href="{{ site.carpentries_site }}">The Carpentries</a>
+        {% endif %}
       </h4>
     </div>
     <div class="col-md-6" align="right">
       <h4>
-	<a href="mailto:{{ site.email }}">Contact The Carpentries</a>
+        <a href="mailto:{{ site.email }}">Contact The Carpentries</a>
       </h4>
     </div>
   </div>
